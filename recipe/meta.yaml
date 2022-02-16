@@ -1,5 +1,5 @@
 {% set name = "tiler" %}
-{% set version = "0.5.4" %}
+{% set version = "0.5.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tiler-{{ version }}.tar.gz
-  sha256: 018b655a1e60d3d51e002b410d86cee1fde39b8c2459136d580bce8a48d776ae
+  sha256: d8758efe227d44258d566c36b25bbd17ff8c7219377af079fc5f047dbb8c23f6
   patches:
     - exclude_tests.patch
 
